@@ -1,0 +1,321 @@
+.text {
+    font-family: 'Segoe UI', Helvetica Neue, Arial, sans-serif;
+    font-size: 1.1em
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: #f9fafb;
+}
+
+.subheading {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #46a2ab;
+}
+
+.center {
+    margin: auto;
+}
+
+.nobrdr {
+    border: none !important;
+}
+
+.img-pad-20 {
+    padding: 1.8em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.dashgreyborder {
+    border: 1px dashed darkgray;
+}
+
+.slimgreyborder {
+    border: solid 1px darkgrey;
+}
+
+.divider {
+    width: 50%;
+    border-top: solid rgb(156, 176, 184) 1px;
+}
+
+.ribbonTitle {
+    font-size: 22px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.listmargintop {
+    margin-top: 75px;
+    background: transparent;
+    border: transparent;
+}
+
+.dropzonemargin {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.listmaptablemargin {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.listheadertablebkgrd {
+    background: #1f2c37;
+    color: white;
+    border-radius: 20px;
+}
+
+.mappingtable .dropdown.icon {
+    padding-left: 220px !important;
+    top: 0.18em !important;
+}
+
+.ui.selection.dropdown {
+    width: 225px;
+}
+
+.half {
+    margin-left: -200px !important;
+    height: 50%;
+    width: 400px !important;
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.mappingtable {
+    width: 90%;
+    background: white;
+    margin: auto;
+    /* border: solid #e2e8e8 1px; */
+}
+
+.mapdropfield {
+    width: 20%;
+    text-align: center;
+}
+
+.mappingbuttons {
+    float: right;
+    margin-right: 5%;
+}
+
+.mappingtable .dropdown {
+    width: 250px !important;
+}
+
+.mappingtable select {
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.mappingheader {
+    height: 40px;
+    text-align: center;
+}
+
+.margin-22 {
+    margin: 22px !important;
+}
+
+.checkmark {
+    content: "\f058";
+    color: #46a2ab;
+    font-family: 'FontAwesome';
+    font-size: 10px;
+}
+
+.allsetcontainer {
+    width: 40% !important;
+    margin: auto;
+    border-radius: 10px;
+    height: 380px;
+}
+
+.allsetheader {
+    color: darkgray;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+.allsetcell {
+    border-top: solid silver 1px;
+    width: 50%;
+    height: 40% !important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#proceed {
+    margin-top: 30px;
+}
+
+
+/* .vertCenterBox {
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.vertCenterDiv {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.vertCenterSpan {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+} */
+
+.vertCenterDiv {
+    display: table;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.vertCenterSpan {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vertCenterBox {
+    border-radius: 6px;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    height: 405px;
+    /* display: inline-block; */
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.dark {
+    background: #1f2c37;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.ribbonBreadcrumbs {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+.topHeaderContainer {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    height: 80px;
+}
+
+.teal {
+    color: #46a2ab;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.bold {
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 22px !important;
+    color: #46a2ab;
+}
+
+.largeIcon {
+    height: 88px;
+    width: 88px;
+}
+
+.zoneDiv {
+    display: table;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.zoneSpan {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.zoneBox {
+    border: 1px dashed darkgray;
+    border-radius: 6px;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    height: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.white {
+    background-color: white;
+}
+
+.formInput {
+    height: 32px;
+    width: 100%;
+    border: solid silver 1px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.listForm {
+    width: 64%;
+    margin: auto;
+}
+
+.listFormRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.listFormField {
+    flex-grow: 1;
+    width: 50%;
+    display: inline-block;
+}

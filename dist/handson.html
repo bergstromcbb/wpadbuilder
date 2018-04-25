@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>React-handsontable demo</title>
+
+    <head>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.js" type="text/javascript"></script>
+        <script src="https://unpkg.com/handsontable@0.30.1/dist/handsontable.full.min.js" type="text/javascript"></script>
+        <script src="https://unpkg.com/react-handsontable@0.2.0/dist/react-handsontable.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://unpkg.com/handsontable@0.30.1/dist/handsontable.full.min.css">
+        <script type="text/jsx">
+            class HandsontableParent extends React.Component { render () { return
+            <div>
+                <HotTable data={[[ 'some', 'test'], [ 'handsontable', 'data']]} contextMenu={true} colHeaders={true} />
+            </div>; } } ReactDOM.render(
+
+            <HandsontableParent/>, document.getElementById('container'));
+        </script>
+    </head>
+</head>
+
+<body>
+    <div id="container" />
+
+</body>
+
+</html>

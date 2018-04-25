@@ -1,0 +1,290 @@
+    .picture {
+        width: 50%;
+    }
+    
+    .stepTitle {
+        text-align: left;
+        color: #9cb0b8;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 17px;
+    }
+    
+    .ui.steps .step.active .title {
+        color: #46a2ab;
+    }
+    
+    .ui.vertical.steps .step {
+        border: none;
+    }
+    
+    .ui.steps .step:after {
+        width: 0;
+        height: 0;
+        background-color: none;
+        border: none;
+    }
+    
+    .ui.steps {
+        border: none;
+    }
+    
+    .ui.ordered.steps .step.completed:before,
+    .ui.steps .step.completed>.icon:before {
+        font-family: Step;
+        content: '\e800';
+        font-size: 36px;
+    }
+    
+    .ui.ordered.steps .step.completed:before,
+    .ui.steps .step.completed>.icon:before {
+        /*color: whitesmoke;
+        border: solid 2px #46a2ab;
+        background: #46a2ab;*/
+        color: #e2e8e8;
+        border: solid 2px #e2e8e8;
+        background: #fafafa;
+        border-radius: 50%;
+        height: 28px;
+        width: 28px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    .templateCircle {
+        background-color: #dcdedf;
+        /*border: 2px solid #dcdedf;*/
+        color: #fff;
+        border-radius: 50%;
+        width: 26px;
+        padding: 2px;
+        margin-left: 3px;
+    }
+    
+    .half {
+        width: 50%;
+    }
+    
+    .p-t-80 {
+        padding-top: 80px;
+    }
+    
+    .padding-18 {
+        padding: 18px;
+    }
+    
+    .step-size-18 {
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+    
+    .ui.ordered.steps .step:before,
+    .ui.steps .step>.icon:before {
+        color: #46a2ab;
+        border: solid 2px #46a2ab;
+        border-radius: 50%;
+        height: 28px;
+        width: 28px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    .ui.steps .step.active {
+        cursor: auto;
+        background: #fafafa;
+    }
+    
+    .ui.ordered.steps .step.active:before,
+    .ui.steps .active.step .icon {
+        /*color: #46a2ab;
+        border: solid 2px #46a2ab;*/
+        color: #ffffff;
+        border: solid 2px #46a2ab;
+        background-color: #46a2ab;
+        border-radius: 50%;
+        height: 28px;
+        width: 28px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    .ui.ordered.steps .step:before {
+        display: block;
+        position: static;
+        text-align: center;
+        content: counters(ordered, ".");
+        -ms-flex-item-align: middle;
+        -ms-grid-row-align: middle;
+        align-self: middle;
+        margin-right: 1rem;
+        font-size: 15px;
+        counter-increment: ordered;
+        font-family: inherit;
+        font-weight: 700;
+    }
+    
+    .ui.steps .step {
+        display: -webkit-box !important;
+        color: #b9c7cc;
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    .topHeaderContainer {
+        /*width: 100%;*/
+        flex-wrap: wrap;
+        display: flex;
+        list-style-type: none;
+        /*margin-bottom: 25px;*/
+    }
+    
+    .list_download {
+        width: 115px !important;
+    }
+    
+    #select_all {
+        width: 80px;
+    }
+    
+    #all_folders {
+        width: 166px;
+    }
+    
+    #pop_down_menu {
+        width: 100px;
+    }
+    
+    .headerItemLeft {
+        font-size: 1vw;
+        padding-left: 10px;
+        padding-bottom: 8px;
+    }
+    
+    .headerItemRight {
+        font-size: 12px;
+        padding-bottom: 7px;
+    }
+    
+    .messagesSent {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    .received {
+        padding-left: 8px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    .roi {
+        padding-left: 8px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    .button555 {
+        width: 20%;
+        text-align: center;
+        font-size: 1vw;
+        padding-top: 17px;
+    }
+    
+    .categorytitle {
+        font-weight: 300;
+        color: #8d9aa4;
+        /* font-size: 1.5em; */
+    }
+    
+    .tempcategorytitle {
+        font-weight: 300;
+        color: white;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    
+    .DayPicker-Caption>div {
+        text-align: center;
+    }
+    
+    .overallcontainer {
+        /*width: 93%;*/
+        text-align: center;
+        flex-wrap: wrap;
+        margin: auto;
+        display: flex;
+        padding: 10px 0;
+        list-style-type: none;
+    }
+    
+    .template {
+        border: 0.25vw solid #46a2ab;
+        margin: 1%;
+        font-size: 14px;
+        padding: 10px;
+        box-shadow: 1px 1px 13px #000000;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .tooltip-example {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .tooltip-example>span {
+        text-align: center;
+        color: #000;
+        font-size: 12px;
+        line-height: 1.5;
+        background: #F66867;
+        background-clip: padding-box;
+        box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5);
+        border: 5px solid #111;
+        border-radius: 3px;
+        position: absolute;
+        width: 250px;
+        left: 50%;
+        margin-left: -125px;
+        padding: 10px 0px;
+        bottom: 100%;
+        margin-bottom: 10px;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+    }
+    
+    .tooltip-example>span:before,
+    a>span:after {
+        content: "";
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        top: 100%;
+        left: 50%;
+        margin-left: -10px;
+    }
+    
+    .tooltip-example>span:before {
+        border-top: 10px solid #111;
+        margin-top: 5px;
+    }
+    
+    .tooltip-example>span:after {
+        border-top: 10px solid #F66867;
+        margin-top: -2px;
+        z-index: 1;
+    }
+    
+    .tooltip-example:hover>span {
+        visibility: visible;
+        opacity: 1;
+    }
